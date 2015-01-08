@@ -8,12 +8,12 @@ require_relative 'Property'
 
 #db config
 #todo: parse env vars or config file for db credentials
-db = [ 
+db = { 
   hostname: 'localhost',
   username: 'user',
   password: 'pass',
   db_name: 'vacation_calendars',
-  table_name: 'properties']
+  table_name: 'properties'}
 
 
 #start headless for webdriver
