@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'watir-webdriver'
+gem 'activesupport'
+gem 'fileutils'
+gem 'icalendar'
+gem 'headless'
+gem 'mysql'

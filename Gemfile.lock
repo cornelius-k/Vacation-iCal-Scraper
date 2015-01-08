@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (3.0.0)
+    childprocess (0.5.5)
+      ffi (~> 1.0, >= 1.0.11)
+    ffi (1.9.6)
+    fileutils (0.7)
+      rmagick (>= 2.13.1)
+    headless (1.0.1)
+    icalendar (1.4.1)
+    mini_portile (0.5.1)
+    multi_json (1.10.1)
+    mysql (2.9.1)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    rmagick (2.13.2)
+    rubyzip (1.1.6)
+    selenium-webdriver (2.44.0)
+      childprocess (~> 0.5)
+      multi_json (~> 1.0)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    watir-webdriver (0.6.11)
+      selenium-webdriver (>= 2.18.0)
+    websocket (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  fileutils
+  headless
+  icalendar
+  mysql
+  nokogiri
+  watir-webdriver
