@@ -1,7 +1,7 @@
 Vacation Calendars
 ============
 
-A ruby application that uses Watir Webdriver to scrape dates from vacation home rental websites and creates iCal (.ics) calendar files.  Designed to work as part of a web service that uses a mysql database.
+A Ruby application that uses Watir Webdriver / Selenium to scrape dates from vacation home rental websites and creates iCal (.ics) calendar files.  Designed to work as part of a web service that uses a mysql database.
 
 Additional dependencies that are necessary for bundle install to succeed:
 
